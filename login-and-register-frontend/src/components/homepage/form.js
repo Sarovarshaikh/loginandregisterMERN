@@ -26,7 +26,7 @@ setItems((oldItems)=>{
 
   return (
     <div>
-        <h2>To Do List</h2> <br />
+    
         <div className="inputField">
         <input type="text" className='form-control' placeholder='Add a Items' value={inputList} onChange={itemEvent} />
         <Button variant="contained" onClick={handleOftodoList}>
